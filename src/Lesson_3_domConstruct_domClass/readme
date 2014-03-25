@@ -1,0 +1,7 @@
+In the 2nd lesson we seperated the Javascript into its own file, and created the widget there. But the shortcoming is that each of the parts we built are in seperate elements in the original HTML document and we have no common control over the quality/consistancy in how our DOM shows up.
+
+Intro to dom-construct and dom-class
+This will show how to use the domNode property of _WidgetBase in order to construct the widget for consistancy.
+
+
+

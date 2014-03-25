@@ -1,0 +1,16 @@
+.blink {
+    animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.hotPink {
+	color: #FF66CC;
+}
+
+.fancyBorder {
+	border-style: dotted solid double;
+}

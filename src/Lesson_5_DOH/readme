@@ -1,0 +1,6 @@
+Testing Dojo can sometimes be tricky as many libraries have a dependency on the dom. If you code your own custom widgets properly, you can avoid any dom dependency and fully test drive the widget.
+
+Use domNode to your advantage.
+understanding how and HTML document is constructed will be a great advantage to writing proper tests. Ensure you know things like id, class, innerHTML, children.
+
+look at typeof and instanceof

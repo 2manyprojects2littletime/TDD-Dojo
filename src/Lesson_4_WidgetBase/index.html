@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.9.1/dijit/themes/soria/soria.css">
+
+<script>
+	dojoConfig = {
+		parseOnLoad: true,
+		baseUrl: './'
+	};
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.9.2/dojo/dojo.js"></script>
+<script src="SampleWidget.js"></script>
+<script>
+	require([
+    	'ca/sean/SampleWidget',
+		'dojo/domReady!'
+	], function( SampleWidget ) {
+		/* Every Widget (extends from _WidgetBase) gets the same default 
+		*  constructor taking two arguements. (1) {} map of attributes that 
+		*  automatically call their set methods. (2) the id in the dom to 
+		*  attach this widget too.		
+		*/
+
+		new SampleWidget({ myName : 'Sean'}, 'theWidget');
+	});
+</script>
+</head>
+
+<body class='soria'>
+
+<fieldset>
+	<legend>First Widget</legend>
+	<div id='theWidget'></div>
+</fieldset>
+
+
+
+</body>
+</html>

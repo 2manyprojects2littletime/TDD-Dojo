@@ -1,0 +1,28 @@
+This is where we put it all together. We can even do a little extra fancy CSS.
+
+We looked at the built-in Calendar Widget, we looked at dom-construct, and we looked at DOH tests. Lets make a fancy Calendar widget that extends the built-in Calendar widget, but can also display change events from the calendar in a seperate text format. The business has asked for this specially formatted text to show up in red for the past, black for today, and green if the date is in the future. There should be a way to set/get the Date Attribute of the calendar. 
+
+By doing TDD, you shouldn't need to worry about creating an HTML file to make sure this new widget is working at each step along the way. Trust your tests.
+
+
+Steps to complete
+---------------------
+Create a test file
+Create the Widget file
+Write a test that ensures you have a widget and extends widget base
+see test fail
+Write the code to create your widget (pass the test)
+write a test that checks for a calendar object
+pass the test
+write a test to ensure you have a seperate div to show the selected date
+pass that test too.
+write a test to confirm clicking a date on the calendar updates the div displaying the date
+pass that test
+write a test for dates in the past (red)
+pass that test
+write a test for dates in the future (green)
+pass that test
+write a test for current date (black)
+pass that test
+
+profit!!

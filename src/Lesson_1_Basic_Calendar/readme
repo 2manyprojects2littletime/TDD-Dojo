@@ -1,0 +1,7 @@
+This example shows two different ways to initialize a Calendar widget.
+
+The declaritive way, uses HTML5 Data tags to bind the Calendar to the DOM.
+The programatic way, though a bit longer to write out, is much faster.
+
+The introduction of the Calendar widget shows the basic constructor available to all widgets. this is in the format MyWidget({}, domNode).
+

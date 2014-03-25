@@ -1,0 +1,21 @@
+.previousDate {
+	color: red;
+}
+
+.currentDate {
+	color: black;
+}
+
+.futureDate {
+	color: green;
+}
+
+#dojoCalendar {
+	position: relative;
+	float: left;
+}
+
+#dateHolder {
+	position: relative;
+	float: right;
+}

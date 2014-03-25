@@ -1,0 +1,3 @@
+Example 2, begins diving deeper into the widget. Showing events on the widget as well as dom manipulation to display the events.
+
+The shortcoming of this approach is that as we add more features and manipulation of the dom, we have to ensure that the HTML has the available DOM elements. This can make the job troublesome to keep the HTML documents up to date as the widget changes. This becomes a bigger issue as the widget gets used in more places.
